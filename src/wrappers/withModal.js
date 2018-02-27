@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 export default (Component) => {
     return class ModalWrapper extends React.Component {
@@ -43,7 +44,7 @@ export default (Component) => {
 };
 
 export const propTypes = {
-    isOpen: React.PropTypes.bool.isRequired,
-    close: React.PropTypes.func.isRequired,
-    open: React.PropTypes.func.isRequired
+    isOpen: PropTypes.bool.isRequired,
+    close: PropTypes.func.isRequired,
+    open: PropTypes.func.isRequired
 };
