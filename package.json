@@ -17,8 +17,8 @@
   "author": "Zaizhuang Cheng",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
@@ -29,18 +29,21 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "chai": "^3.5.0",
-    "enzyme": "^2.4.1",
+    "enzyme": "^3.3.0",
     "eslint": "^3.1.1",
     "eslint-loader": "^1.4.1",
     "eslint-plugin-react": "^5.2.2",
     "istanbul": "^1.1.0-alpha.1",
     "jsdom": "^9.4.1",
     "mocha": "^2.5.3",
-    "react": "^15.2.1",
+    "react": "^16.2.0",
     "react-addons-test-utils": "^15.2.1",
-    "react-dom": "^15.2.1",
+    "react-dom": "^16.2.0",
     "sinon": "^1.17.4",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1"
   }
 }
