@@ -1,18 +1,19 @@
 /* global document, window */
 
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Modal extends React.Component {
     static propTypes = {
-        size: React.PropTypes.string,
-        children: React.PropTypes.oneOfType([
-            React.PropTypes.arrayOf(React.PropTypes.node),
-            React.PropTypes.element
+        size: PropTypes.string,
+        children: PropTypes.oneOfType([
+            PropTypes.arrayOf(PropTypes.node),
+            PropTypes.element
         ]).isRequired,
 
         // from modal wrapper
-        isOpen: React.PropTypes.bool.isRequired,
-        close: React.PropTypes.func.isRequired
+        isOpen: PropTypes.bool.isRequired,
+        close: PropTypes.func.isRequired
     }
 
     constructor (props) {
